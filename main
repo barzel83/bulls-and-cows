@@ -1,6 +1,7 @@
 #game bulls and cows
 #contributer: Ilya Murychev
 #date: 03-01-2023
+#language: python
 import random
 
 def secret_number():
