@@ -3,7 +3,7 @@
 #date: 03-01-2023
 import random
 
-def secret_number():
+def secret_number():#generation secret number by computer
     num=[0]*4
 
     num[0] = random.randint(0,9)
@@ -22,13 +22,13 @@ def secret_number():
 
     return num
 
-def piruk(number):
+def piruk(number):#convertation number to array
     array=[0]*4
     for i in range(3,-1,-1):
         array[i] = number % 10
         number = number // 10
     return array
-def bulls_cows(arr1, arr2):
+def bulls_cows(arr1, arr2):#counting of cows and bulls in certain number
     bulls=0
     cows=0
     cowbulls=[0,0]
@@ -44,7 +44,7 @@ def bulls_cows(arr1, arr2):
     return cowbulls
 
 number_arr = secret_number()
-print("secret number = ", number_arr)
+print("secret number = ", number_arr)#printing secret computer's number
 
 bulls = 0
 i=0
