@@ -1,5 +1,5 @@
 #game bulls and cows
-#contributer: Ilya Murychev
+#contributor: Ilya Murychev
 #date: 03-01-2023
 import random
 
